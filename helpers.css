@@ -1,0 +1,74 @@
+/*//////////////////////////////////////////////////////*/
+/* helpers.css v.0.1 | MIT License | jasonleewilson.com/
+//////////////////////////////////////////////////////*/
+
+.float-left   { float:left }
+.float-right  { float:right }
+
+.align-left   { float:left; margin: 0 15px 0 0 }
+.align-right  { float:right; margin: 0 0 0 15px }
+
+.clear        { clear:both }
+
+.center       { margin: 0 auto }
+
+.margins      { margin:20px }
+.push-top     { margin-top:20px }
+.push-right   { margin-right:20px }
+.push-bottom  { margin-bottom:20px }
+.push-left    { margin-left:20px }
+
+.padding      { margin:20px }
+
+.border       { border:10px solid #eee }
+.noborder     { border:0 }
+.redborder    { border: 1px solid red }
+
+.text-left    { text-align:left }
+.text-right   { text-align:right }
+.text-center  { text-align:center }
+.text-justify { text-align:justify }
+
+.underline    { text-decoration:underline }
+.highlight    { background-color:#ffc }
+
+.indent       { text-indent:15px }
+.no-indent    { text-indent:0 }
+
+.vt			  {vertical-align: top;}
+.vb			  {vertical-align: bottom;}
+.vl			  {vertical-align: left;}
+.vr			  {vertical-align: right;}
+
+.alpha {
+	opacity:.8;
+	filter: alpha(opacity=80);
+	-ms-filter: alpha(opacity=80);
+}
+
+.shadow {
+	border: solid 1px #CCC;
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+.rounded-corners {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+/* end clearfix */
