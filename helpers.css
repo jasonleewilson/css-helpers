@@ -12,13 +12,21 @@
 
 .center       { margin: 0 auto }
 
-.margins      { margin:20px }
-.push-top     { margin-top:20px }
-.push-right   { margin-right:20px }
-.push-bottom  { margin-bottom:20px }
-.push-left    { margin-left:20px }
+.margin      				{ margin:20px }
+.margin-top-bottom	{ margin:20px 0 }
+.margin-left-right	{ margin: 0 20px }
+.margin-top     		{ margin-top:20px }
+.margin-right   		{ margin-right:20px }
+.margin-bottom  		{ margin-bottom:20px }
+.margin-left    		{ margin-left:20px }
 
-.padding      { margin:20px }
+.padding      			{ padding:20px }
+.padding-top-bottom	{ padding:20px 0 }
+.padding-left-right	{ padding: 0 20px }
+.padding-top     		{ padding-top:20px }
+.padding-right   		{ padding-right:20px }
+.padding-bottom  		{ padding-bottom:20px }
+.padding-left    		{ padding-left:20px }
 
 .border       { border:10px solid #eee }
 .noborder     { border:0 }
